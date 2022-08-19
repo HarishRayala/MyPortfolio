@@ -26,7 +26,7 @@ function AboutCard() {
               <ImPointRight /> Travelling
             </li>
           </ul>
-
+          <p style={{ textAlign: "justify" }}>Gmail: harishrayala2379@gmail.com <br/>Contactno: 9948558343</p>
           <p style={{ color: "rgb(155 126 172)" }}>
             "Strive to build things that make a difference!"{" "}
           </p>
