@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Card } from "react-bootstrap";
 import myImg from "../../Assets/avatar.jpg";
 import Tilt from "react-parallax-tilt";
 import {
@@ -9,6 +9,7 @@ import {
   AiFillMail,
 } from "react-icons/ai";
 import { FaLinkedinIn, FaMediumM } from "react-icons/fa";
+import { ImPointRight } from "react-icons/im";
 
 function Home2() {
   return (
@@ -59,6 +60,36 @@ function Home2() {
             </Tilt>
           </Col>
         </Row>
+        <Card className="quote-card-view">
+      <Card.Body md={8}>
+        <blockquote className="blockquote mb-0">
+          <p style={{ textAlign: "justify" }}>
+             {/* I am <span className="purple">Harish Rayala </span> */}
+             I am from <span className="purple"> Visakhapatnam, India.</span>
+            <br />I have done B.Tech in Electrical Engineering from Vignan's Institute of Information Technology, Visakhapatnam in 2018 and now pursuing MERN development course in Masai school
+            <br />
+            <br />
+            Apart from coding, some other activities that I love to do!
+          </p>
+          <ul>
+            <li className="about-activity">
+              <ImPointRight /> I am an Artist(Sketching)
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Writing Stories
+            </li>
+            <li className="about-activity">
+              <ImPointRight /> Travelling
+            </li>
+          </ul>
+          <p style={{ textAlign: "justify" }}>Gmail: harishrayala2379@gmail.com <br/>Contactno: 9948558343</p>
+          <p style={{ color: "rgb(155 126 172)" }}>
+            "Strive to build things that make a difference!"{" "}
+          </p>
+          <footer className="blockquote-footer">Harish</footer>
+        </blockquote>
+      </Card.Body>
+    </Card>
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>

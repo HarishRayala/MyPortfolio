@@ -53,23 +53,25 @@ function NavBar() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
             <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
+              {/* <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
-              </Nav.Link>
+              </Nav.Link> */}
+              <a className="anchor" href="#home" ><AiOutlineHome style={{ marginBottom: "2px" }} /> Home</a>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
+              {/* <Nav.Link
                 as={Link}
-                to="/about"
+                to=""
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineUser style={{ marginBottom: "2px" }} /> About
-              </Nav.Link>
+              </Nav.Link> */}
+              <a className="anchor" href='#about'><AiOutlineUser style={{ marginBottom: "2px" }} /> About</a>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
+              {/* <Nav.Link
                 as={Link}
                 to="/project"
                 onClick={() => updateExpanded(false)}
@@ -78,17 +80,22 @@ function NavBar() {
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Projects
-              </Nav.Link>
+              </Nav.Link> */}
+              <a className="anchor" href='#project'><AiOutlineFundProjectionScreen
+                  style={{ marginBottom: "2px" }}
+                />{" "}
+                Projects</a>
             </Nav.Item>
 
             <Nav.Item>
-              <Nav.Link
+              {/* <Nav.Link
                 as={Link}
                 to="/resume"
                 onClick={() => updateExpanded(false)}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
-              </Nav.Link>
+              </Nav.Link> */}
+              <a className="anchor" href="https://drive.google.com/file/d/1VcbYTvw-_recMWkH1g5zHlGfetUjnhXp/view?usp=sharing" target="-blank"><CgFileDocument style={{ marginBottom: "2px" }} /> Resume</a>
             </Nav.Item>
 
             {/* <Nav.Item>

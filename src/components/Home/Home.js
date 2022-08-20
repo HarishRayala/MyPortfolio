@@ -1,12 +1,15 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import homeLogo from "../../Assets/home-main.svg";
+import About from "../About/About";
 import Particle from "../Particle";
+import Projects from "../Projects/Projects";
 import Home2 from "./Home2";
 import Type from "./Type";
 
 function Home() {
   return (
+    <>
     <section>
       <Container fluid className="home-section" id="home">
         <Particle />
@@ -43,6 +46,9 @@ function Home() {
       </Container>
       <Home2 />
     </section>
+    <About/>
+    <Projects/>
+    </>
   );
 }
 
