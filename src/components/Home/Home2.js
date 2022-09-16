@@ -22,12 +22,12 @@ function Home2() {
             </h1>
             <p className="home-about-body">
               I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
+              something, I think… 🤷‍♂️ I am fluent in classics like
+              <span>
               <i>
                 <b className="purple"> CSS, HTML, Javascript and React.js. </b>
               </i>
+              </span>
               <br />
               <br />
               My field of Interest's are building new &nbsp;

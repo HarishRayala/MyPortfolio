@@ -24,7 +24,7 @@ function Projects() {
               isBlog={false}
               title="Bigbasket"
               description="Bigbasket is an Online Grocery Application with different Categories like Fruits&Vegetables, Beverages, Kitchen, Garden & Pets, etc.,It is a Collaborative Project. We build this Application using"
-              techstack="Tech Stack : Html, CSS, JavaScript"
+              techstack="Tech Stack : Html, CSS, JavaScript, Json"
               link="https://github.com/rohaantelangur/Masai_Project_1_BigBasket"
               deploylink="https://delicate-flan-410bb9.netlify.app/"
             />
