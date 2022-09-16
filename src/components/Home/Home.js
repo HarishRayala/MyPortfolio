@@ -4,6 +4,7 @@ import homeLogo from "../../Assets/home-main.svg";
 import About from "../About/About";
 import Particle from "../Particle";
 import Projects from "../Projects/Projects";
+import Contact from "./Contact";
 import Home2 from "./Home2";
 import Type from "./Type";
 
@@ -48,6 +49,7 @@ function Home() {
     </section>
     <About/>
     <Projects/>
+    <Contact/>
     </>
   );
 }

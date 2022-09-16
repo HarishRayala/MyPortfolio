@@ -90,7 +90,7 @@ function Home2() {
         </blockquote>
       </Card.Body>
     </Card>
-        <Row>
+        {/* <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
             <p>
@@ -149,7 +149,7 @@ function Home2() {
               </li>
             </ul>
           </Col>
-        </Row>
+        </Row> */}
       </Container>
     </Container>
   );
