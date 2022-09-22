@@ -102,7 +102,7 @@ function NavBar() {
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link> */}
-              <a className="anchor" href="https://drive.google.com/file/d/1VcbYTvw-_recMWkH1g5zHlGfetUjnhXp/view?usp=sharing" target="-blank"><CgFileDocument style={{ marginBottom: "2px" }} /> Resume</a>
+              {/* <a className="anchor" href="https://drive.google.com/file/d/1VcbYTvw-_recMWkH1g5zHlGfetUjnhXp/view?usp=sharing" target="-blank"><CgFileDocument style={{ marginBottom: "2px" }} /> Resume</a> */}
             </Nav.Item>
 
             {/* <Nav.Item>
