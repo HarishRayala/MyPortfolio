@@ -8,17 +8,21 @@ function Github() {
       <h1 className="project-heading" style={{ paddingBottom: "20px" }}>
         Days I <strong className="purple">Code</strong>
       </h1>
-      <p align="center">
+      <p align="center" >
         <img
           align="center"
           src="https://github-readme-streak-stats.herokuapp.com/?user=harishrayala&theme=vision-friendly-dark"
           alt="githubstats"
+          width="100%"
+          id="githubstats"
         />
         <br />
         <img
           align="center"
           src="https://github-readme-stats.vercel.app/api?username=harishrayala&show_icons=true&locale=en&theme=vision-friendly-dark"
           alt="githubstats"
+          width="100%"
+          id="githubstats"
         />
       </p>
       <GitHubCalendar

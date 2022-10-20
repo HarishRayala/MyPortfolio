@@ -740,3 +740,8 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+@media only Screen and (min-width:750px) and (max-width:1500px){
+  #githubstats{
+    width: 50%;
+  }
+}
