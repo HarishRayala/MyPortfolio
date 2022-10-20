@@ -6,12 +6,14 @@ import logo from "../Assets/logo.jpg";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
+import pdf from "../Assets/Harishrayala fw17_0700.pdf";
 import {
   AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
   AiOutlineContacts,
+  AiOutlineTool,
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -70,7 +72,9 @@ function NavBar() {
               </Nav.Link> */}
               <a className="anchor" href='#about'><AiOutlineUser style={{ marginBottom: "2px" }} /> About</a>
             </Nav.Item>
-
+            <Nav.Item>
+              <a className="anchor" href='#skills'><AiOutlineTool style={{ marginBottom: "2px" }} /> Skills</a>
+              </Nav.Item>
             <Nav.Item>
               {/* <Nav.Link
                 as={Link}
@@ -102,7 +106,7 @@ function NavBar() {
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resume
               </Nav.Link> */}
-              {/* <a className="anchor" href="https://drive.google.com/file/d/1VcbYTvw-_recMWkH1g5zHlGfetUjnhXp/view?usp=sharing" target="-blank"><CgFileDocument style={{ marginBottom: "2px" }} /> Resume</a> */}
+              <a className="anchor" href={pdf} target="-blank"><CgFileDocument style={{ marginBottom: "2px" }} /> Resume</a>
             </Nav.Item>
 
             {/* <Nav.Item>

@@ -19,7 +19,7 @@ import {
 
 function Techstack() {
   return (
-    <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+    <Row style={{ justifyContent: "center", paddingBottom: "50px" }} id="skills" >
       {/* <Col xs={4} md={2} className="tech-icons">
         <CgCPlusPlus />
       </Col> */}

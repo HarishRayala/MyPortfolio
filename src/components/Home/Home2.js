@@ -23,8 +23,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️ I am fluent in classics like
+              I am fluent in classics like
               <span>
               <i>
                 <b className="purple"> CSS, HTML, Javascript and React.js. </b>
@@ -42,8 +41,8 @@ function Home2() {
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              I also apply my passion for developing products
+              with <b className="purple">Node.js, Express, MongoDB</b> and
               <i>
                 <b className="purple">
                   {" "}
@@ -93,6 +92,7 @@ function Home2() {
             href={pdf}
             target="_blank"
             style={{ maxWidth: "250px" }}
+            download
           >
             <AiOutlineDownload />
             &nbsp;Download CV

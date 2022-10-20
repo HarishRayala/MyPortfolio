@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import myfitnesspal from "../../Assets/Projects/myfitnesspal.png";
 import bigbasket from "../../Assets/Projects/bigbasket.png";
 import bluefly from "../../Assets/Projects/bluefly.png";
+import monsterindia from "../../Assets/Projects/monsterindia.png";
 
 function Projects() {
   return (
@@ -51,6 +52,18 @@ function Projects() {
               techstack="Tech Stack : Html, CSS, JavaScript, React-Js, Chakra-ui"
               link="https://github.com/HarishRayala/sedate-bee-1602"
               deploylink="https://myfitnesspal-seven.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={monsterindia}
+              isBlog={false}
+              title="Monster India"
+              description="Monster-jobs is a source for jobs and career opportunities. Search for jobs, read career advice from Monster's job experts, and find hiring and recruiting "
+              techstack="Tech Stack : Html, CSS, JavaScript, React-Js, Chakra-ui, Redux, React-icons, heroku"
+              link="https://github.com/HarishRayala/Monster-India"
+              deploylink="https://monsterindia.vercel.app/"
             />
           </Col>
         </Row>

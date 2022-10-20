@@ -7,6 +7,7 @@ import {
   SiHeroku,
   SiVercel,
   SiNetlify,
+  SiMongodb,
 } from "react-icons/si";
 
 function Toolstack() {
@@ -34,6 +35,10 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiNetlify />
         <div style={{fontSize:"20px"}}>Netlify</div>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMongodb />
+        <div style={{fontSize:"20px"}}>MongoDB-Compass</div>
       </Col>
     </Row>
   );
